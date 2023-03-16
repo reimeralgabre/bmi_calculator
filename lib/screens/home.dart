@@ -92,6 +92,7 @@ class _HomeScreenState extends State<HomeScreen> {
                   else if (_bmiResult >= 18.5 && _bmiResult <= 25) {
                     _textResult = "You have a normal weight";
                   }
+
                   else {
                     _textResult = "You are under weight";
                   }
